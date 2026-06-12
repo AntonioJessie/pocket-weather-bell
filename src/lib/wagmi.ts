@@ -4,8 +4,9 @@ import { createConfig, http } from "wagmi";
 import type { EIP1193Provider } from "viem";
 
 export const baseAppId = "6a2bc51f0cfd412b2ab2c314";
+export const buildCode = "bc_vm82uras";
 export const erc8021DataSuffix =
-  "0x62635f706f636b65745f776561746865725f62656c6c" as `0x${string}`;
+  "0x62635f766d3832757261730b0080218021802180218021802180218021" as `0x${string}`;
 
 export const contractAddress =
   "0xe3fa5dccc68a6852e85c068603f092b119b4ce9e" as `0x${string}`;
