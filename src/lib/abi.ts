@@ -1,0 +1,92 @@
+export const pocketWeatherBellAbi = [
+  {
+    type: "function",
+    name: "userSunnies",
+    stateMutability: "view",
+    inputs: [{ name: "", type: "address" }],
+    outputs: [{ name: "", type: "uint256" }],
+  },
+  {
+    type: "function",
+    name: "userRainies",
+    stateMutability: "view",
+    inputs: [{ name: "", type: "address" }],
+    outputs: [{ name: "", type: "uint256" }],
+  },
+  {
+    type: "function",
+    name: "userWindies",
+    stateMutability: "view",
+    inputs: [{ name: "", type: "address" }],
+    outputs: [{ name: "", type: "uint256" }],
+  },
+  {
+    type: "function",
+    name: "totalSunnies",
+    stateMutability: "view",
+    inputs: [],
+    outputs: [{ name: "", type: "uint256" }],
+  },
+  {
+    type: "function",
+    name: "totalRainies",
+    stateMutability: "view",
+    inputs: [],
+    outputs: [{ name: "", type: "uint256" }],
+  },
+  {
+    type: "function",
+    name: "totalWindies",
+    stateMutability: "view",
+    inputs: [],
+    outputs: [{ name: "", type: "uint256" }],
+  },
+  {
+    type: "function",
+    name: "ringSunny",
+    stateMutability: "nonpayable",
+    inputs: [],
+    outputs: [],
+  },
+  {
+    type: "function",
+    name: "ringRainy",
+    stateMutability: "nonpayable",
+    inputs: [],
+    outputs: [],
+  },
+  {
+    type: "function",
+    name: "ringWindy",
+    stateMutability: "nonpayable",
+    inputs: [],
+    outputs: [],
+  },
+  {
+    type: "event",
+    name: "SunnyRung",
+    inputs: [
+      { name: "user", type: "address", indexed: true },
+      { name: "userSunnies", type: "uint256", indexed: false },
+      { name: "totalSunnies", type: "uint256", indexed: false },
+    ],
+  },
+  {
+    type: "event",
+    name: "RainyRung",
+    inputs: [
+      { name: "user", type: "address", indexed: true },
+      { name: "userRainies", type: "uint256", indexed: false },
+      { name: "totalRainies", type: "uint256", indexed: false },
+    ],
+  },
+  {
+    type: "event",
+    name: "WindyRung",
+    inputs: [
+      { name: "user", type: "address", indexed: true },
+      { name: "userWindies", type: "uint256", indexed: false },
+      { name: "totalWindies", type: "uint256", indexed: false },
+    ],
+  },
+] as const;

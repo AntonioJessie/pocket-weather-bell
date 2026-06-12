@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pocket Weather Bell
 
-## Getting Started
+Pocket Weather Bell is a Base Mini App built with Next.js, TypeScript, Wagmi, Viem, and Tailwind CSS. It exposes exactly three onchain write actions:
 
-First, run the development server:
+- Ring Sunny
+- Ring Rainy
+- Ring Windy
+
+The app does not issue a token, sell credits, charge an app fee, add rewards, or add invite mechanics. Users only pay the Base gas required for the contract interaction.
+
+The matching Solidity source is in `contracts/PocketWeatherBell.sol`.
+
+## App Configuration
+
+Production configuration is set in the app source:
+
+- `src/app/layout.tsx`: Base and Talent app verification metadata.
+- `src/lib/wagmi.ts`: Base app id, deployed contract address, and ERC-8021 data suffix.
+
+Every `writeContractAsync` call explicitly passes `dataSuffix`, and the Wagmi config also includes the same `dataSuffix`.
+
+## Development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open `http://localhost:3000`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Verification
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run lint
+npm run build
+```
 
-## Learn More
+## Deployment Notes
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The repository includes `vercel.json` headers to allow iframe embedding for Base App surfaces. Disable Vercel Deployment Protection before base.dev verification.
