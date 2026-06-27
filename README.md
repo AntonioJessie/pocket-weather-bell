@@ -65,3 +65,11 @@ The app verification metadata is defined in:
 The chain interaction configuration is defined in:
 
 - `src/lib/wagmi.ts`
+
+Every `writeContractAsync` call explicitly passes `dataSuffix`.
+
+The Wagmi configuration also includes the same `dataSuffix`.
+
+When updating deployment details, keep these values aligned.
+
+## Setup
