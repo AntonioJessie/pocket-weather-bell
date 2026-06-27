@@ -42,4 +42,11 @@ Users only pay the Base gas required for the contract interaction.
 
 Important files and directories include:
 
-- `src/app/layout.tsx`
+- `src/app/layout.tsx`  
+  Contains Base and Talent app verification metadata.
+
+- `src/lib/wagmi.ts`  
+  Contains the Base app id, deployed contract address, and ERC-8021 data suffix.
+
+- `contracts/PocketWeatherBell.sol`  
+  Contains the matching Solidity contract source.
