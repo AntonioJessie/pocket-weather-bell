@@ -21,3 +21,9 @@ Each action sends a contract interaction on Base.
 The matching Solidity source is available at:
 
 - `contracts/PocketWeatherBell.sol`
+
+The app does not sell credits, charge an app fee, add rewards, or include invite mechanics.
+
+Users only pay the Base gas required for the contract interaction.
+
+## Features
