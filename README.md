@@ -13,3 +13,11 @@ PocketWeatherBell focuses on one small interaction: choosing a weather mood and 
 The interface exposes exactly three write actions:
 
 - Ring Sunny
+- Ring Rainy
+- Ring Windy
+
+Each action sends a contract interaction on Base.
+
+The matching Solidity source is available at:
+
+- `contracts/PocketWeatherBell.sol`
