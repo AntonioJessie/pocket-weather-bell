@@ -119,3 +119,9 @@ npm run lint
 Build the project:
 
 ```bash
+npm run build
+```
+
+Both commands should complete successfully before deployment.
+
+## Deployment Notes
