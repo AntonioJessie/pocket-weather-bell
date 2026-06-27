@@ -73,3 +73,11 @@ The Wagmi configuration also includes the same `dataSuffix`.
 When updating deployment details, keep these values aligned.
 
 ## Setup
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
