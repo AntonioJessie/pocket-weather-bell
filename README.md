@@ -89,3 +89,9 @@ npm run dev
 Open the local app in your browser:
 
 ```text
+http://localhost:3000
+```
+
+## Usage
+
+Run the app locally or deploy it to a supported hosting environment.
