@@ -57,3 +57,11 @@ Important files and directories include:
 ## App Configuration
 
 Production configuration is stored directly in the application source.
+
+The app verification metadata is defined in:
+
+- `src/app/layout.tsx`
+
+The chain interaction configuration is defined in:
+
+- `src/lib/wagmi.ts`
