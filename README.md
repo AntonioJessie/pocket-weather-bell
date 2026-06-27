@@ -111,3 +111,11 @@ After confirmation, the selected weather bell action is written onchain.
 Before committing or deploying changes, run the standard checks.
 
 Lint the project:
+
+```bash
+npm run lint
+```
+
+Build the project:
+
+```bash
