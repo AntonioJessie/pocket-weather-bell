@@ -141,3 +141,11 @@ Keep the application focused on the three supported bell actions.
 Avoid adding unrelated mechanics that change the purpose of the app.
 
 If the contract address or app verification details change, update the relevant files together.
+
+If the ERC-8021 data suffix changes, update both the Wagmi configuration and each write call.
+
+## License
+
+No license information is provided in the original project README.
+
+Add a license file if the project should be distributed under a specific license.
