@@ -103,3 +103,11 @@ Open the app and choose one of the available actions:
 - Ring Windy
 
 Confirm the transaction when prompted by the connected wallet.
+
+After confirmation, the selected weather bell action is written onchain.
+
+## Verification
+
+Before committing or deploying changes, run the standard checks.
+
+Lint the project:
