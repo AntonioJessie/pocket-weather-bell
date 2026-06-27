@@ -27,3 +27,12 @@ The app does not sell credits, charge an app fee, add rewards, or include invite
 Users only pay the Base gas required for the contract interaction.
 
 ## Features
+
+- Base Mini App experience
+- Next.js application structure
+- TypeScript source code
+- Wagmi and Viem integration
+- Tailwind CSS styling
+- Three clear onchain actions
+- Solidity contract source included in the repository
+- Production metadata configured in the app source
