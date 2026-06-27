@@ -50,3 +50,10 @@ Important files and directories include:
 
 - `contracts/PocketWeatherBell.sol`  
   Contains the matching Solidity contract source.
+
+- `vercel.json`  
+  Includes headers needed for iframe embedding in Base App surfaces.
+
+## App Configuration
+
+Production configuration is stored directly in the application source.
