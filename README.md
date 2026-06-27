@@ -95,3 +95,11 @@ http://localhost:3000
 ## Usage
 
 Run the app locally or deploy it to a supported hosting environment.
+
+Open the app and choose one of the available actions:
+
+- Ring Sunny
+- Ring Rainy
+- Ring Windy
+
+Confirm the transaction when prompted by the connected wallet.
