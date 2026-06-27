@@ -36,3 +36,10 @@ Users only pay the Base gas required for the contract interaction.
 - Three clear onchain actions
 - Solidity contract source included in the repository
 - Production metadata configured in the app source
+- Deployment headers included for Base App iframe surfaces
+
+## Project Structure
+
+Important files and directories include:
+
+- `src/app/layout.tsx`
