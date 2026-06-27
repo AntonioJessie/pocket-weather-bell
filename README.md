@@ -133,3 +133,11 @@ If deploying with Vercel, make sure the deployment is publicly accessible during
 Disable Vercel Deployment Protection before running verification on base.dev.
 
 After verification is complete, review the deployment settings according to your release process.
+
+## Development Notes
+
+Keep the application focused on the three supported bell actions.
+
+Avoid adding unrelated mechanics that change the purpose of the app.
+
+If the contract address or app verification details change, update the relevant files together.
