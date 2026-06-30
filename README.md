@@ -141,3 +141,11 @@ Both commands should complete successfully before deployment.
 ## Deployment Notes
 
 The repository includes `vercel.json` headers for iframe embedding in Base App surfaces.
+
+If deploying with Vercel, make sure the deployment is publicly accessible during Base App verification.
+
+Disable Vercel Deployment Protection before running verification on base.dev.
+
+After verification is complete, review the deployment settings according to your release process.
+
+## Development Notes
