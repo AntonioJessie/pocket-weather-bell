@@ -49,3 +49,11 @@ Important files and directories include:
 
 - `src/lib/wagmi.ts`  
   Contains the Base app id, deployed contract address, and ERC-8021 data suffix.
+
+- `contracts/PocketWeatherBell.sol`  
+  Contains the matching Solidity contract source.
+
+- `vercel.json`  
+  Includes headers needed for iframe embedding in Base App surfaces.
+
+## App Configuration
