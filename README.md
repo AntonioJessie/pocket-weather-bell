@@ -81,3 +81,13 @@ Clone the repository:
 ```bash
 git clone https://github.com/AntonioJessie/pocket-weather-bell.git
 ```
+
+Move into the project directory:
+
+```bash
+cd pocket-weather-bell
+```
+
+Install dependencies:
+
+```bash
