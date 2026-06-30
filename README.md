@@ -159,3 +159,11 @@ If the contract address or app verification details change, update the relevant 
 If the ERC-8021 data suffix changes, update both the Wagmi configuration and each write call.
 
 Review `contracts/PocketWeatherBell.sol` when changing the frontend write actions.
+
+Keep action labels clear so users understand which weather mood they are selecting.
+
+## License
+
+No license information is provided in the original project README.
+
+Add a license file if the project should be distributed under a specific license.
