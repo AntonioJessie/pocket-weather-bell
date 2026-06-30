@@ -39,3 +39,13 @@ Users only pay the Base gas required for the contract interaction.
 - Solidity contract source included
 - Production metadata configured in the app source
 - Deployment headers included for Base App iframe surfaces
+
+## Project Structure
+
+Important files and directories include:
+
+- `src/app/layout.tsx`  
+  Contains Base and Talent app verification metadata.
+
+- `src/lib/wagmi.ts`  
+  Contains the Base app id, deployed contract address, and ERC-8021 data suffix.
