@@ -107,3 +107,11 @@ http://localhost:3000
 ```
 
 ## Usage
+
+Run the app locally or deploy it to a supported hosting environment.
+
+Open PocketWeatherBell and choose one of the available actions:
+
+- Ring Sunny
+- Ring Rainy
+- Ring Windy
