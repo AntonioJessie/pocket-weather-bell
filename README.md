@@ -57,3 +57,11 @@ Important files and directories include:
   Includes headers needed for iframe embedding in Base App surfaces.
 
 ## App Configuration
+
+Production configuration is stored directly in the application source.
+
+App verification metadata is defined in:
+
+- `src/app/layout.tsx`
+
+Chain interaction configuration is defined in:
