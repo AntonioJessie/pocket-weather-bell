@@ -115,3 +115,13 @@ Open PocketWeatherBell and choose one of the available actions:
 - Ring Sunny
 - Ring Rainy
 - Ring Windy
+
+Confirm the transaction when prompted.
+
+After confirmation, the selected weather bell action is written onchain.
+
+## Verification
+
+Before committing or deploying changes, run the standard checks.
+
+Lint the project:
