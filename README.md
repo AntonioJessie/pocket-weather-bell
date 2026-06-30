@@ -32,3 +32,10 @@ Users only pay the Base gas required for the contract interaction.
 
 - Base Mini App experience
 - Next.js application structure
+- TypeScript source code
+- Wagmi and Viem integration
+- Tailwind CSS styling
+- Three clear onchain weather actions
+- Solidity contract source included
+- Production metadata configured in the app source
+- Deployment headers included for Base App iframe surfaces
