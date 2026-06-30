@@ -73,3 +73,11 @@ Every `writeContractAsync` call explicitly passes `dataSuffix`.
 The Wagmi configuration also includes the same `dataSuffix`.
 
 When deployment details change, keep these values aligned.
+
+## Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/AntonioJessie/pocket-weather-bell.git
+```
