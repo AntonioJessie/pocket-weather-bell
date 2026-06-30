@@ -23,3 +23,12 @@ Each action sends a contract interaction on Base.
 The matching Solidity source is included in the repository:
 
 - `contracts/PocketWeatherBell.sol`
+
+PocketWeatherBell does not sell credits, charge an app fee, add rewards, or include invite mechanics.
+
+Users only pay the Base gas required for the contract interaction.
+
+## Features
+
+- Base Mini App experience
+- Next.js application structure
