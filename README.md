@@ -149,3 +149,13 @@ Disable Vercel Deployment Protection before running verification on base.dev.
 After verification is complete, review the deployment settings according to your release process.
 
 ## Development Notes
+
+Keep the application focused on the three supported bell actions.
+
+Avoid adding unrelated mechanics that change the purpose of the app.
+
+If the contract address or app verification details change, update the relevant files together.
+
+If the ERC-8021 data suffix changes, update both the Wagmi configuration and each write call.
+
+Review `contracts/PocketWeatherBell.sol` when changing the frontend write actions.
