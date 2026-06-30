@@ -133,3 +133,11 @@ npm run lint
 Build the project:
 
 ```bash
+npm run build
+```
+
+Both commands should complete successfully before deployment.
+
+## Deployment Notes
+
+The repository includes `vercel.json` headers for iframe embedding in Base App surfaces.
